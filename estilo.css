@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+li {
+    float: left;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: rgb(104, 241, 241);
+  }
+#imagemfundo {
+    background: url("Sollitarios\ \(318\).jpg");
+    background-size: cover;
+    padding: 1%;
+    height: 100vh; 
+    width: 98%;
+    text-align: center;
+}
+#titulo {
+    color: rgb(104, 241, 241);
+    padding-top: 20%;
+    font-size: 60px;
+}
+#subtitulo {
+    color:  rgb(104, 241, 241);
+    font-size: 35px;
+}
+.button {
+    background-color:rgb(12, 189, 50);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.icone {
+  width: 100px;
+}
+.destaque {
+  background-color: rgb(164, 240, 214);
+  padding: 35px;
+}
+#dicas {
+  padding: 40px;
+  float: left;
+  background-color: aliceblue;
+}
+.parques {
+  width: 90%;
+}
+.coluna {
+  float: left;
+  padding: 0 5%;
+  position: relative;
+}
+.dois {
+  width: 40%;
+}
+.tres {
+  width: 23%;
+  }
+.tres2 {
+  width: 23%;
+}
+#projetos {
+  float: left;
+}
+.justificado {
+  text-align: justify;
+}
+.centralizado {
+  text-align: center;
+}
+#dicas {
+  float: left;
+}
+#unidades {
+  float: left;
+}
+#sobre {
+  float: left;
+  background-color: aliceblue;
+}
+footer {
+  background-color: rgb(164, 240, 214);
+  float: left;
+  width: 100%;
+}
+@media all and (max-width: 768px) {
+  li {
+    visibility: hidden;
+  }
+  .coluna, .dois, .tres, .tres2 {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+  }
+}
